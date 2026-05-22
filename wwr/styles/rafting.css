@@ -1,6 +1,5 @@
 :root {
     --primary-color: #227e9a;
-    --secundary-color: #7ec8e3;
     --accent1-color: #264b78;
     --accent2-color: #87cfc6;
     --heading-font: "Poppins" sans-serif;
@@ -39,7 +38,7 @@ article {
     padding: 8px;
 }
 
-.socialmedia {
+.socialmedia a {
     text-decoration: none;
 }
 
@@ -70,7 +69,7 @@ h1 {
 
 }
 
-article {
+.hero article {
     position: absolute;
     top: 405px;
     padding: 8px;
