@@ -2,7 +2,8 @@
     --primary-color: #227e9a;
     --accent1-color: #264b78;
     --accent2-color: #87cfc6;
-    --heading-font: "Poppins" sans-serif;
+    --accent3-color: #c7d8d6;
+    --heading-font: "Poppins", sans-serif;
     --body-font: "Open Sans", sans-serif;
 }
 
@@ -22,6 +23,41 @@ main,
 footer {
     width: 840px;
     margin: 0 auto;
+}
+
+header {
+    display: grid;
+    grid-template-columns: 300px 1fr;
+    align-items: center;
+    top: 405px;
+    padding: 8px;
+    background-color: var(--accent3-color);
+
+}
+
+header img {
+    justify-self: center;
+}
+
+.nav {
+    display: flex;
+    list-style: none;
+}
+
+.nav li {
+    display: block;
+    flex: 1 1 auto;
+
+}
+
+.nav a {
+    text-decoration: none;
+    color: var(--accent1-color);
+    display: block;
+    padding: 12px 25px;
+    border: 1px solid black;
+    text-align: center;
+
 }
 
 h1,
@@ -77,6 +113,38 @@ h1 {
     opacity: 0.8;
 }
 
+section img {
+    width: 250px;
+}
+
+.history {
+    display: grid;
+    padding: 0 2px;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+}
+
+.adventures img {
+    width: 135px;
+    height: auto;
+}
+
+.adventures {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.adventures figure {
+    text-align: center;
+}
+
+.adventures figcaption {
+    margin-top: 8px;
+}
+
 .socialmedia img {
     width: 50px;
 
@@ -88,4 +156,23 @@ h2 {
     background-color: var(--accent1-color);
     color: #fff;
 
+}
+
+footer {
+    display: grid;
+    grid-template-columns: 1fr auto 1fr;
+    align-items: center;
+}
+
+footer p {
+    grid-column: 2;
+    text-align: center;
+
+}
+
+.socialmedia {
+    grid-column: 3;
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
 }
