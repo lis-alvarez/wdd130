@@ -303,3 +303,186 @@ footer p {
 .employees figcaption {
     margin-top: 8px;
 }
+
+/* home page */
+
+.hero-home {
+    position: relative;
+}
+
+.hero-home img {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin-top: 2rem;
+}
+
+.hero-home h1 {
+    position: absolute;
+    top: 50px;
+    width: 100%;
+    padding: 16px;
+    text-align: center;
+    opacity: 0.7;
+    background-color: var(--accent1-color);
+    color: #fff;
+}
+
+.home-layout {
+    display: flex;
+    gap: 2rem;
+    align-items: flex-start;
+}
+
+.home-layout h2 {
+    width: 100%;
+    text-align: center;
+    background-color: #fff;
+    color: var(--accent1-color);
+    margin-bottom: 1rem;
+}
+
+.signup {
+    flex: 1;
+    width: 500px;
+}
+
+.signup-form {
+    display: grid;
+    grid-template-columns: 80px 1fr;
+    gap: 10px;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.signup button {
+    width: 100%;
+    padding: 5px;
+}
+
+.call-to-trips {
+    text-align: center;
+}
+
+.call-to-trips a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: var(--accent1-color);
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.section-title {
+    text-align: center;
+    margin: 3rem 0 2rem;
+    color: var(--accent1-color);
+}
+
+.info-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 40px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.info-item {
+    display: grid;
+    grid-template-columns: 350px 1fr;
+    align-items: center;
+    gap: 30px;
+}
+
+.info-item img {
+    width: 100%;
+    height: 250px;
+    border-radius: 10px;
+}
+
+/* trips page */
+.call-to-contact {
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.call-to-contact a {
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: var(--accent1-color);
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.call-to-contact h1 {
+    color: var(--accent1-color);
+    top: 15px;
+    width: 100%;
+    padding: 5px;
+    text-align: center;
+}
+
+.call-to-contact p {
+    text-align: center;
+}
+
+.trip-grid h2 {
+    width: 100%;
+    text-align: center;
+    background-color: #fff;
+    color: var(--accent1-color);
+    margin-bottom: 1rem;
+
+}
+
+.trip-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 40px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.trip-card {
+    display: grid;
+    grid-template-columns: 350px 1fr;
+    align-items: center;
+    gap: 30px;
+    margin: 20px 0;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 12px;
+}
+
+.trip-card img {
+    width: 300px;
+    border-radius: 10px;
+}
+
+.reverse {
+    grid-template-columns: 1fr 350px;
+
+}
+
+.trip-table h2 {
+    margin-bottom: 2rem;
+}
+
+.trip-table table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.trip-table th,
+.trip-table td {
+    border: 1px solid #ccc;
+    padding: 12px;
+}
+
+.trip-table th {
+    background-color: var(--accent3-color);
+    color: #fff;
+}
